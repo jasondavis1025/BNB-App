@@ -9,6 +9,7 @@ const Header = (props) => {
                 return <div id={item.id} className="headerItem">{item.title}</div>
             })}
         </div>
+        <button className="ReservationBTN">Reservation</button>
     </header>
   )
 }
